@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+  <head>
+    <title>HTML Cheat Sheet</title>
+
+  </head>
+  <body>
+    <!-- Headings -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!--
+    Inline vs. Block Level Elements
+    Inline- do not start a new line, take only necessary width i.e. <span>, <img>, <a>
+    Block- start on new line, take full width i.e. <div>, <h1> - <h6>, <p>, <form>
+
+    -->
+
+    <!--
+    Tag Attributes:
+    All tags can have attributes
+    Provide information about an element
+    Placed within the start tag
+    Key/ value pairs (id="someId")
+
+    example: <tagname attributename="attributevalue"> content </tagname>
+    <h1 title="my company"> about us </h1>
+    -->
+
+    <!-- Paragraph Tags -->
+    <p>
+      Lorem ipsum dolor sit amet, <!-- Inline Tag --><strong>consectetur adipisicing elit. </strong>
+      Delectus eligendi nostrum quas unde velit! Hic molestias
+      possimus repudiandae sed. Animi autem eveniet, <!-- Inline Tag --><em>facilis laudantium </em>
+      qui sed ullam. Nesciunt, rerum, totam.
+    </p>
+
+    <p>
+      <!-- <_blank> opens link in new tab -->
+      <a href="http://google.com" target="_blank">Lorem ipsum </a> dolor sit amet, consectetur adipisicing elit.
+      Delectus eligendi nostrum quas unde velit! Hic molestias
+      possimus repudiandae sed. Animi autem eveniet, facilis laudantium
+      qui sed ullam. Nesciunt, rerum, totam.
+
+    </p>
+
+  <!-- Lists Ordered/ Unordered
+  Unordered lists use bullet points, most website navigation used unordered lists
+    Ordered lists use numbers
+  -->
+
+    <ul>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ul>
+
+    <ol>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ol>
+
+  <!-- Tables -->
+  <table>
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Jarad Overby</td>
+      <td>joverby@something.com</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Cheryl Overby</td>
+      <td>coverby@something.com</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>Forrest Overby</td>
+      <td>foverby@something.com</td>
+      <td>58</td>
+    </tr>
+    </tbody>
+  </table>
+
+    <br>
+    <!--<hr> tag puts horizontal line in page-->
+    <hr>
+    <br>
+    <!-- Forms -->
+    <form action="">
+      <div>
+      <label>First Name</label>
+      <input type="text" name="firstName" placeholder="Enter first name">
+      </div>
+      <br>
+      <div>
+      <label>Last Name</label>
+      <input type="text" name="lastName" placeholder="Enter last name">
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter email address">
+      </div>
+      <br>
+      <div>
+        <label>Message</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+      </div>
+      <br>
+      <div>
+        <label>Gender</label>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>Age</label>
+        <input type="number" name="age" value="28">
+      </div>
+      <br>
+      <div>
+        <label for="">Birthday:</label>
+        <input type="date" name="birthday">
+      </div>
+      <br>
+      <input type="submit">
+    </form>
+
+  </body>
+
+
+</html>
